@@ -1,0 +1,84 @@
+/** GLOBAL STYLES **/
+body {
+  font-size: 16px;
+  color: #7de06b;
+  background-color: #140b69;
+  /* font-family: 'Varela Round', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #14a30f73;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  padding-top: 40px;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Food, LLC */
+  font-family: 'Roboto Serif', sans-serif; 
+  color: #7de06b;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: -28px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+/** BUTTON **/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #7de06b;
+}
+.navbar-header button.navbar-toggle {
+  /* clear: both; */
+  margin-top: -5px;
+}
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+  background: #140b69;
+}
+
+/** COLLAPSABLE MENU **/
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  text-align: center;
+  color: #7de06b;
+}
+#nav-list a:hover {
+  background: #14a30f73;
+}
+#nav-list > li:nth-child(1), #nav-list > li:nth-child(2) {
+  border-bottom: solid 1px white;
+}
+/** END HEADER **/
+
+
+/** MAIN CONTENT **/
+#our-menu-title {
+  margin-bottom: 40px;
+}
+.text {
+  background-color: #14a30f73;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+#main-content .text h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#main-content .text p {
+  text-align: justify;
+}
+
+/* For optional assignment */
+.back-to-top {
+  color: #fff;
+  text-decoration: underline;
+}
+/** END MAIN CONTENT **/
